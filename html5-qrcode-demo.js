@@ -23,6 +23,11 @@ docReady(function() {
  
             resultContainer.innerHTML += `<div>[${countResults}] - ${decodedText}</div>`;
             
+            if (decodedText == 78924598){
+             resultContainer.innerHTML += `<div>Cigarro</div>`;}
+            if (decodedText == 7891428842579){
+             resultContainer.innerHTML += `<div>Veste Lycra Sunset FPU50+ <br>Tamanho: M<br>Cor: Branco Referencia: VST02</div>`;} 
+            
             // Optional: To close the QR code scannign after the result is found
             html5QrcodeScanner.clear();
         }
